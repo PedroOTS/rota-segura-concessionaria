@@ -1,7 +1,6 @@
 # Rota Segura — Sistema de Locação de Veículos (TP1)
 
-**Aluno:** SEU NOME COMPLETO
-**Matrícula:** SUA MATRÍCULA
+**Aluno:** Pedro Otávio Trindade Silva
 
 ## Contexto
 
