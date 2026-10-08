@@ -19,6 +19,9 @@ public class ArquivoPersistencia {
     }
 
     public void salvar(BancoDeDados banco) throws IOException {
+        if (arquivo.getParent() != null) {
+            Files.createDirectories(arquivo.getParent()); // cria a pasta dados/ na primeira execução
+        }
         try (ObjectOutputStream out = new ObjectOutputStream(Files.newOutputStream(arquivo))) {
             out.writeObject(banco);
         }
